@@ -1,5 +1,4 @@
 body {
-  background-image: url(../images/about_background.svg);
   background-size: 200px;
   height: 200px;
   background-repeat: repeat;
@@ -43,7 +42,6 @@ body {
 /*** Header ***/
 .about-me__header {
   margin-top: -4em;
-  background-image: url(../images/about_header.svg);
   background-size: 700px;
   background-position: center 13em;
   background-repeat: no-repeat;

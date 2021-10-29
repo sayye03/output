@@ -9,7 +9,7 @@ blue: #8d94ba
 body {
   margin: 0;
   padding: 0;
-  background-color:  #ff789e;
+  background-color:  #fff;
   overflow-x: hidden;
 }
 li {
@@ -45,7 +45,7 @@ a {
   width: 100%;
   margin: 0;
   padding: 2em 0 1em;
-  color: #ff789e;
+  color:#FDCF4A;
   font-size: 2.5em;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -62,7 +62,7 @@ a {
   width: 10px;
   height: 10px;
   margin-left: 5px;
-  background-color: #ff789e;
+  background-color: #FDCF4A;
 }
 .title__dot--white {
   background-color: #fff;
@@ -82,11 +82,11 @@ a {
   z-index: 5;
 }
 .nav__logo {
-  max-width: 30px;
-  height: auto;
-  position: relative;
-  top: 0.5em;
-  left: 0.5em;
+  max-width: 90px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .nav__hamburger {
   position: absolute;
@@ -202,7 +202,8 @@ a {
 
 /***  Header  ***/
 .header {
-  background-image: url(../images/header_background.svg);
+  /* background-image: url(../images/header_background.svg); */
+  background-color: #FDCF4A;
   background-repeat: repeat;
   background-size: 400px;
   background-position: top left;
@@ -217,7 +218,7 @@ a {
   display: inline-block;
   background-color: #fff;
   padding: 0 15px;
-  color: #ff789e;
+  color: #FDCF4A;
   font-size: 2.9em;
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
@@ -342,7 +343,7 @@ a {
   min-width: 300px;
   max-width: 560px;
   box-sizing: content-box;
-  background-color: #ff789e;
+  background-color: #FDCF4A;
   padding: 0 2em 0;
   border-left: 15px solid #8d94ba;
 }
@@ -520,8 +521,8 @@ a {
   width: 100%;
   height: 100%;
   padding-top: 2.5em;
-  background-color: #ff4d7f;
-  background: linear-gradient(to top, #ff99b6 0%, #ff4d7f 100%);
+  background-color: #382266;
+  /* background: linear-gradient(to top, #ff99b6 0%, #ff4d7f 100%); */
   position: absolute;
   left: 0;
   top: 0;
@@ -600,7 +601,7 @@ a {
 /*** Contact ***/
 .contact {
   padding: 0 0 3em;
-  background-color: #ff789e;
+  background-color: #FDCF4A;
   text-align: center;
 }
 .contact__description {
